@@ -1,0 +1,20 @@
+url: https://denisabd.github.io/assistr/
+template:
+  bootstrap: 5
+  bootswatch: simplex
+  bslib:
+    pkgdown-nav-height: 100px
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
+navbar:
+  structure:
+    left:  [intro, reference, articles, tutorials, news]
+    right: [search, github]
+
+reference:
+
+- title: Narratives
+  desc: Functions to create text out of data
+  contents:
+  - assistr
